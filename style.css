@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: lato, serif;
+  text-rendering: auto;
+  scroll-behavior: smooth;
+}
+
+header {
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.4)),
+    url(./images/primary-house.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 55px;
+  }
+}
